@@ -1,0 +1,13 @@
+<map id="drivers/dac/ad9144/iio_ad9144.c" name="drivers/dac/ad9144/iio_ad9144.c">
+<area shape="rect" id="node1" title="Implementation of AD9144 IIO Driver." alt="" coords="171,5,318,47"/>
+<area shape="rect" id="node2" href="$iio__ad9144_8h.html" title="Header file of AD9144 iio." alt="" coords="192,95,297,121"/>
+<area shape="rect" id="node3" href="$iio__types_8h.html" title="Header file for iio_types." alt="" coords="396,244,490,271"/>
+<area shape="rect" id="node7" href="$ad9144_8h.html" title="Header file of AD9144 Driver." alt="" coords="164,169,247,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="372,319,455,345"/>
+<area shape="rect" id="node5" title=" " alt="" coords="170,319,241,345"/>
+<area shape="rect" id="node6" title=" " alt="" coords="479,319,562,345"/>
+<area shape="rect" id="node8" href="$delay_8h.html" title="Header file of Delay functions." alt="" coords="26,244,134,271"/>
+<area shape="rect" id="node9" href="$spi_8h.html" title="Header file of SPI Interface." alt="" coords="159,244,252,271"/>
+<area shape="rect" id="node10" href="$util_8h.html" title="Implementation of utility functions." alt="" coords="277,244,372,271"/>
+<area shape="rect" id="node11" title=" " alt="" coords="277,319,348,345"/>
+</map>

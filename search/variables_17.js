@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['x_27028',['x',['../structadxl372__xyz__accel__data.html#a0a9bd2297cdbaa9230fdd7359cd41bd7',1,'adxl372_xyz_accel_data']]],
+  ['xcvr_27029',['xcvr',['../structjesd204__clk.html#a45cf326105abc4bf2cad448b9f2a3adf',1,'jesd204_clk']]],
+  ['xil_5fgpio_5firq_5fops_27030',['xil_gpio_irq_ops',['../gpio__irq__extra_8h.html#adc876ac13b3da2a9a41d771c865bca5a',1,'xil_gpio_irq_ops():&#160;xilinx_gpio_irq.c'],['../xilinx__gpio__irq_8c.html#adc876ac13b3da2a9a41d771c865bca5a',1,'xil_gpio_irq_ops():&#160;xilinx_gpio_irq.c']]],
+  ['xil_5fgpio_5fops_27031',['xil_gpio_ops',['../xilinx_2gpio__extra_8h.html#af433dcedd9856d98fbd8e4c9b5b072f3',1,'xil_gpio_ops():&#160;xilinx_gpio.c'],['../xilinx__gpio_8c.html#af433dcedd9856d98fbd8e4c9b5b072f3',1,'xil_gpio_ops():&#160;xilinx_gpio.c']]],
+  ['xil_5fgpio_5fparam_27032',['xil_gpio_param',['../ad7616__sdz_8c.html#af42d07150021f322d10a10b10154182a',1,'ad7616_sdz.c']]],
+  ['xil_5fi2c_5fops_27033',['xil_i2c_ops',['../xilinx_2i2c__extra_8h.html#a30bc9fbdca83b7526d426d83b9fc9466',1,'xil_i2c_ops():&#160;xilinx_i2c.c'],['../xilinx__i2c_8c.html#a30bc9fbdca83b7526d426d83b9fc9466',1,'xil_i2c_ops():&#160;xilinx_i2c.c']]],
+  ['xil_5fi2c_5ftype_27034',['xil_i2c_type',['../xilinx_2i2c__extra_8h.html#a92ac41a0e7575e102d860aecd7eeab8d',1,'i2c_extra.h']]],
+  ['xil_5firq_5fops_27035',['xil_irq_ops',['../xilinx_2irq__extra_8h.html#a98405b3dd4ad8dbe2f0fd128d4607b80',1,'xil_irq_ops():&#160;xilinx_irq.c'],['../xilinx__irq_8c.html#a98405b3dd4ad8dbe2f0fd128d4607b80',1,'xil_irq_ops():&#160;xilinx_irq.c']]],
+  ['xil_5fspi_5fops_27036',['xil_spi_ops',['../spi__engine_8h.html#ab12cc19e0b9d1ecca42d72653e6a67f8',1,'xil_spi_ops():&#160;xilinx_spi.c'],['../xilinx_2spi__extra_8h.html#ab12cc19e0b9d1ecca42d72653e6a67f8',1,'xil_spi_ops():&#160;xilinx_spi.c'],['../xilinx__spi_8c.html#ab12cc19e0b9d1ecca42d72653e6a67f8',1,'xil_spi_ops():&#160;xilinx_spi.c']]],
+  ['xil_5fspi_5freg_5fops_5fpl_27037',['xil_spi_reg_ops_pl',['../xilinx_2spi__extra_8h.html#a9138cff1bd5cd8e56a65ca36efad521d',1,'spi_extra.h']]],
+  ['xint_5fconf_27038',['xint_conf',['../unionirq__config.html#ac3208ae1ba53a9a8b53f5e1a8c9a0237',1,'irq_config']]],
+  ['xlx_5fxcvr_27039',['xlx_xcvr',['../structadxcvr.html#acddfe09bea9d83363985b07b328fb9ad',1,'adxcvr']]],
+  ['xml_5fdesc_27040',['xml_desc',['../structiio__desc.html#a9831f807ec747c5d562ad32b552a9aae',1,'iio_desc']]],
+  ['xml_5fsize_27041',['xml_size',['../structiio__desc.html#a8b7414c910afa860ffd11d0458942e99',1,'iio_desc']]],
+  ['xml_5fsize_5fto_5flast_5fdev_27042',['xml_size_to_last_dev',['../structiio__desc.html#a115c607df871bfb0f72cd7dd7a7d0195',1,'iio_desc']]],
+  ['xo_5fdisable_5fuse_5fext_5frefclk_5fenable_27043',['xo_disable_use_ext_refclk_enable',['../struct_a_d9361___init_param.html#a1e98393db2dc963dff505a8cb7bfa99f',1,'AD9361_InitParam']]]
+];

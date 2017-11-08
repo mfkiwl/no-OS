@@ -1,0 +1,20 @@
+<map id="drivers/cdc/ad7746/iio_ad7746.c" name="drivers/cdc/ad7746/iio_ad7746.c">
+<area shape="rect" id="node1" title=" " alt="" coords="353,5,498,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="137,319,208,345"/>
+<area shape="rect" id="node3" title=" " alt="" coords="35,95,102,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="126,95,213,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="237,95,305,121"/>
+<area shape="rect" id="node6" href="$error_8h.html" title="Error codes definition." alt="" coords="330,95,434,121"/>
+<area shape="rect" id="node8" href="$delay_8h.html" title="Header file of Delay functions." alt="" coords="597,169,705,196"/>
+<area shape="rect" id="node10" href="$iio_8h.html" title="Header file of iio." alt="" coords="730,169,780,196"/>
+<area shape="rect" id="node15" href="$iio__ad7746_8h.html" title="Header file of iio_ad7746." alt="" coords="612,95,717,121"/>
+<area shape="rect" id="node16" href="$util_8h.html" title="Implementation of utility functions." alt="" coords="316,244,410,271"/>
+<area shape="rect" id="node17" href="$ad7746_8h.html" title="Header file of AD7746 Driver." alt="" coords="490,169,572,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="346,169,414,196"/>
+<area shape="rect" id="node9" title=" " alt="" coords="589,319,660,345"/>
+<area shape="rect" id="node11" href="$iio__types_8h.html" title="Header file for iio_types." alt="" coords="830,244,923,271"/>
+<area shape="rect" id="node14" href="$uart_8h.html" title="Header file of UART interface." alt="" coords="705,244,805,271"/>
+<area shape="rect" id="node12" title=" " alt="" coords="407,319,490,345"/>
+<area shape="rect" id="node13" title=" " alt="" coords="835,319,918,345"/>
+<area shape="rect" id="node18" href="$i2c_8h.html" title="Header file of I2C Interface." alt="" coords="536,244,630,271"/>
+</map>
