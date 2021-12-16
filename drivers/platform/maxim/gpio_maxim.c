@@ -5,12 +5,19 @@
 #include "gpio_regs.h"
 #include "gpio_extra.h"
 #include "max32660.h"
+#include "list.h"
 
 #define N_INT	14
 
 struct gpio_platform_ops gpio_ops;
 
 struct callback_desc *gpio_callback[N_INT];
+
+static int32_t cmp(struct maxim_callback_desc *a,
+			struct maxim_callback_desc *b)
+{
+	return a->pin - b->pin;
+}
 
 void GPIO0_IRQHandler()
 {
@@ -176,15 +183,21 @@ int32_t gpio_register_callback(uint8_t pin, struct gpio_callback_desc *desc)
 	if(!desc || !desc->config || pin >= N_INT)
 		return -EINVAL;
 	
+/*
 	if(!gpio_callback[pin]){
 		gpio_callback[pin] = calloc(1, sizeof(*gpio_callback));
 		if(!gpio_callback[pin])
 			return -ENOMEM;
 	}
+*/
 
-	gpio_callback[pin]->ctx = desc->ctx;
-	gpio_callback[pin]->callback = desc->callback;
-	gpio_callback[pin]->config = desc->config;
+	struct callback_desc *descriptor = calloc(1, sizeof(*descriptor));
+	
+	descriptor->ctx = desc->ctx;
+	descriptor->callback = desc->callback;
+	descriptor->config = desc->config;
+
+	cb[pin] = descriptor;
 	
 	return 0;
 }	
@@ -193,10 +206,8 @@ int32_t gpio_unregister_callback(uint8_t pin)
 {
 	if(!gpio_callback[pin])
 		return -EINVAL;
-
-	gpio_callback[pin]->ctx = NULL;
-	gpio_callback[pin]->callback = NULL;
-	gpio_callback[pin]->config = NULL;
+	
+	free(cb[pin])
 	
 	return 0;
 }

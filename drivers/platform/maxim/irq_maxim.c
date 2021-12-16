@@ -21,15 +21,12 @@ int32_t irq_ctrl_init(struct irq_ctrl_desc **desc,
 
 	descriptor->irq_ctrl_id = param->irq_ctrl_id;
 	descriptor->platform_ops = &maxim_irq_ops;
-	descriptor->extra = (struct maxim_irq_desc)param->extra;
+	descriptor->extra = (struct maxim_irq_desc *)param->extra;
 
 	GPIO_Init();
 	*desc = descriptor;	
 
 	return 0;
-
-error:
-	free(*desc);
 }
 
 int32_t irq_ctrl_remove(struct irq_ctrl_desc *desc)
