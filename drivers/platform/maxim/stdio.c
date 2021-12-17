@@ -49,7 +49,6 @@
 #include "mxc_config.h"
 #include "mxc_sys.h"
 #include "board.h"
-#include "uart_x.h"
 
 /**
  * Address of the UART registers for the console output.

@@ -1,4 +1,4 @@
-# See No-OS/tool/scripts/src_model.mk for variable description
+#See No-OS/tool/scripts/src_model.mk for variable description
 SRC_DIRS += $(PROJECT)/src/app
 SRC_DIRS += $(NO-OS)/iio/iio_app
 
@@ -7,13 +7,17 @@ SRCS +=	$(NO-OS)/util/list.c \
 	$(NO-OS)/util/util.c
 
 #drivers
-SRCS += $(DRIVERS)/adc/adc_demo/adc_demo.c \
+SRCS +=	$(DRIVERS)/adc/adc_demo/adc_demo.c \
 	$(DRIVERS)/adc/adc_demo/iio_adc_demo.c \
 	$(DRIVERS)/dac/dac_demo/iio_dac_demo.c \
 	$(DRIVERS)/dac/dac_demo/dac_demo.c
 
 INCS += $(INCLUDE)/no-os/fifo.h \
 	$(INCLUDE)/no-os/uart.h \
+	$(INCLUDE)/no-os/gpio.h \
+	$(INCLUDE)/no-os/spi.h \
+	$(INCLUDE)/no-os/rtc.h \
+	$(INCLUDE)/no-os/irq.h \
 	$(INCLUDE)/no-os/list.h \
 	$(INCLUDE)/no-os/util.h \
 	$(INCLUDE)/no-os/error.h
@@ -96,6 +100,7 @@ SRCS += $(PLATFORM_DRIVERS)/uart_maxim.c 	\
 INCS += $(PLATFORM_DRIVERS)/uart_maxim.h			\
 	$(PLATFORM_DRIVERS)/gpio_extra.h			\
 	$(PLATFORM_DRIVERS)/irq_maxim_extra.h			\
+	$(PLATFORM_DRIVERS)/spi_extra.h			\
 	$(PLATFORM_DRIVERS)/rtc_extra.h			\
 	$(MAXIM_LIBRARIES)/CMSIS/Device/Maxim/MAX32660/Include/max32660.h	 \
 	$(MAXIM_LIBRARIES)/CMSIS/Device/Maxim/MAX32660/Include/mxc_device.h	 \

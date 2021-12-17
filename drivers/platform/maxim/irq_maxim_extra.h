@@ -2,6 +2,7 @@
 #define IRQ_MAXIM_EXTRA_H
 
 #include "no-os/irq.h"
+#include "gpio.h"
 #include "max32660.h"
 
 #define BASE_IRQ	(0x40)
